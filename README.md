@@ -6,7 +6,8 @@ will have the database-specific annotation. This way, we can keep all the behavi
 
 ## Configuration
 
-Change MongoDB connection configuration in the ```resources/application.properties``` file. The property is ```spring.data.mongodb.uri```. An example:
+Change MongoDB connection configuration in the ```resources/application.properties``` file. 
+The property is ```spring.data.mongodb.uri```. An example:
 
 ```
 spring.data.mongodb.uri=mongodb://localhost:27017/test
